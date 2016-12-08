@@ -10,40 +10,12 @@
     <meta name="keywords" content="">
     <link href="lib/reset.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="lib/animate.min.css">
-    <link rel="stylesheet" href="lib/swiper.min.css">
-    <script src="lib/swiper.min.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/Swiper/3.4.0/css/swiper.min.css">
+    <script src="//cdn.bootcss.com/Swiper/3.4.0/js/swiper.min.js"></script>
     <script src="lib/swiper.animate1.0.2.min.js"></script>
     <script src="lib/rem.js"></script>
     <style>
-    /*  
-@keyframes bgImg1{
-    from{
-        top: 0rem;
-        right: 0rem;
-        transform: rotateZ(0) translatex(0px);
-        opacity: 1;
-    }
-    to{
-        top: 5rem;
-        opacity: 0;
-        transform: rotateZ(270deg) translateX(-640px);
-    }
-}
-@keyframes bgImg1{
-    from{
-        top: 0rem;
-        right: 1.2rem;
-        transform : rotateZ(0deg) ;
-        opacity: 1;
-    }
-    to{
-        top: 5rem;
-        right: 0rem;
-        opacity: 0;
-        transform: rotateZ(360deg);
-    }
-}*/
     </style>
     <script src="lib/rem.js"></script>
 </head>
@@ -263,10 +235,11 @@
                 <div class="slide6-content">
                     <h3 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration=".5s" swiper-animate-delay=".5s">感谢如此<span class="cool ani" swiper-animate-effect="bounce" swiper-animate-duration=".5s" swiper-animate-delay="1.5s">cool</span>的你</h3>
                     <h3 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration=".5s" swiper-animate-delay="1s">可以看到最后</h3>
-                    <h5></h5>
-                    <h4 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration=".5s" swiper-animate-delay="1.5s">如果你愿意</h4>
-                    <h4 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration=".5s" swiper-animate-delay="2s">我们可以愉快的交流一下</h4>
-                    <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration=".5s" swiper-animate-delay="2s">微信</p>
+                    <h4 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration=".5s" swiper-animate-delay="1.5s">如果您的公司正好需要前端工程师</h4>
+                    <h4 class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration=".5s" swiper-animate-delay="1.7s">请联系我</h4>
+                    <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration=".5s" swiper-animate-delay="2s">邮箱：<a href="mailto:857277886@qq.com">857277886@qq.com</a></p>
+                    <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration=".5s" swiper-animate-delay="2.2s">手机：<a href="tel:15981876175">15981876175</a></p>
+                    <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration=".5s" swiper-animate-delay="2.4s">微信：</p>
                     <span class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
                         <img src="images/weixinEwm.png" alt="">
                     </span>
@@ -298,23 +271,6 @@
             container.appendChild(cc);
         }
         var num1 = Math.round(getRandom(8, 12));
-        // var imgAn = ['bgImg1','bgImg2'];
-        // for(var i = 0; i < num1 ; i++){
-        //  var imgIndex = Math.round(getRandom(0,3));
-        //  var anIndex = Math.round(getRandom(0,3));
-        //  var cc = document.createElement('img');
-        //  var src=['images/bg05.png','images/bg03.png','images/bg05.png','images/bg04.png','images/bg03.png','images/bg05.png'];
-        //  //获得宽高
-        //  var wh = getRandom(0.1,0.4);
-        //  cc.className="itemImg";
-        //  cc.src=src[i%6];
-        //  cc.style.width = wh + 'rem';
-        //  cc.style.opacity = Math.random();
-        //  cc.style.transform= 'skewX(-'+getRandom(0,30)+'deg)';
-
-        //  container.appendChild(cc);
-        //  cc.style.animation = 'bgImg1 '+getRandom(20,30)+'s linear '+i*2+'s infinite';
-        // }
         var mySwiper = new Swiper('.swiper-container', {
                 direction: 'vertical',
                 // effect : 'fade',
