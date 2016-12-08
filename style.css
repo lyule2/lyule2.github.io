@@ -380,50 +380,60 @@
             font-size: .26rem;
             margin-bottom: .1rem;
         }
+        
         .slide4-content ul li h4 {
             font-size: .18rem;
             color: #737373;
         }
         /*     slide5 */
-
-        .slide5 > img{
+        
+        .slide5 > img {
             width: 100%;
             height: 100%;
         }
-        .slide5-content{
+        
+        .slide5-content {
             position: absolute;
             top: 20%;
             left: .4rem;
             width: 5.6rem;
         }
-        .slide5-content ul li{
+        
+        .slide5-content ul li {
             text-align: center;
             border: 1px solid #09d6e0;
             border-radius: 20px;
             margin-bottom: 6%;
             padding-bottom: .1rem;
         }
-        .slide5-content ul li:nth-of-type(2){
+        
+        .slide5-content ul li:nth-of-type(2) {
             border-color: #3594e6;
         }
-        .slide5-content ul li:nth-of-type(3){
+        
+        .slide5-content ul li:nth-of-type(3) {
             border-color: #6e9655;
         }
-        .slide5-content ul li:nth-of-type(4){
+        
+        .slide5-content ul li:nth-of-type(4) {
             border-color: #f18324;
         }
-        .slide5-content ul li:nth-of-type(5){
+        
+        .slide5-content ul li:nth-of-type(5) {
             border-color: #f00;
         }
-        .slide5-content ul li h3{
+        
+        .slide5-content ul li h3 {
             font-size: .3rem;
             color: #000;
         }
-        .slide5-content ul li h4{
+        
+        .slide5-content ul li h4 {
             font-size: .16rem;
             color: #b5b5b5;
         }
-        .slide5-content ul li p{
+        
+        .slide5-content ul li p {
             font-size: .16rem;
             color: #404040;
         }
@@ -672,4 +682,27 @@
         .widthTo65 {
             -webkit-animation-name: widthTo65;
             animation-name: widthTo65;
+        }
+        
+        .timeBar {
+            -webkit-animation-name: timeBar;
+            animation-name: timeBar
+        }
+        
+        @-webkit-keyframes timeBar {
+            0% {
+                height: 0;
+            }
+            100% {
+                height: 7.2rem;
+            }
+        }
+        
+        @keyframes timeBar {
+            0% {
+                height: 0;
+            }
+            100% {
+                height: 7.2rem;
+            }
         }
